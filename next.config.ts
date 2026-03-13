@@ -4,7 +4,7 @@ import test from "node:test";
 const nextConfig: NextConfig = {
   /* config options here */
   output: "export",
-  basePath: "testCICD",
+  basePath: "/testCICD",
 };
 
 export default nextConfig;
