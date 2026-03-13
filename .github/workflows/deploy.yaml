@@ -20,5 +20,8 @@ jobs:
       - name: Install Dependencies
         run: npm Install
 
+      - name: run build
+        run: npm run build
+
       - name: HealthCheck
         run: echo "Health check pass"
