@@ -12,5 +12,13 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
+      - name: Set uo NodeJS
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Install Dependencies
+        run: npm Install
+
       - name: HealthCheck
         run: echo "Health check pass"
